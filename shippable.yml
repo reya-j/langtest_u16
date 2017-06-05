@@ -6,6 +6,6 @@ build:
     - docker info
     
   pre_ci_boot:
-    image_name: drydock/u16
+    image_name: drydock/u16 
     image_tag: master
     pull: true 
