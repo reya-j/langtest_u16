@@ -3,7 +3,7 @@ build:
   ci:
     - node --version
     - docker info
-    - sleep 5m
+    #- sleep 5m
     
   pre_ci_boot:
     image_name: drydock/u16 
