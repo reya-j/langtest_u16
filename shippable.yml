@@ -3,9 +3,9 @@ build:
   ci:
     - node --version
     - docker info
-    - echo "https://github.com"
-    - echo Link to "https://rcapp.shippable.com"
-    - curl "https://google.com"
+    - echo https://github.com
+    - echo Link to https://rcapp.shippable.com
+    - curl https://google.com
     #- sleep 5m
     
   pre_ci_boot:
