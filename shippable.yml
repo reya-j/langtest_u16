@@ -4,6 +4,7 @@ build:
     - node --version
     - docker info
     - echo Link to https://rcapp.shippable.com
+    - echo https://google.com
     #- sleep 5m
     
   pre_ci_boot:
